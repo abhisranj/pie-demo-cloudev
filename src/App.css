@@ -1,0 +1,36 @@
+.App {
+  background-color: #C11B1B;
+}
+
+.chart {
+  float: left;
+  border: solid;
+  border-radius: 25px;
+  border-color: #C11B1B;
+  margin-left: 150px;
+  margin-top: 120px;
+  height: 400px;
+  width: 400px;
+}
+
+.chart-details {
+  float: right;
+  border: solid;
+  border-radius: 25px;
+  border-color: #C11B1B;
+  margin-top: 120px;
+  margin-right: 150px;
+  height: 400px;
+  width: 400px;
+}
+
+.selected-name {
+  text-align: center;
+}
+
+.selected-value {
+  text-align: center;
+  border: 1px solid;
+  margin: 15px;
+  border-radius: 25px;
+}
