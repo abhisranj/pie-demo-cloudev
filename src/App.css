@@ -51,6 +51,19 @@
   color: #000000;
 }
 
+@media only screen and (max-width: 880px) {
+    .chart {
+      height: 400px;
+    }
+    .chart-details {
+      height: 400px;
+      font-size: 14px;
+    }
+    .pie {
+      padding-top: 9px;
+    }
+}
+
 @media only screen and (max-width: 425px) {
     .chart {
       height: 250px;
@@ -60,6 +73,12 @@
       font-size: 7px;
     }
     .pie {
-      padding-top: 25px;
+      padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .pie {
+      padding-top: 39px;
     }
 }
