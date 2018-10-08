@@ -18,6 +18,3 @@ data: [
 			}
 		]
 
-
-TODO:
-1. Bootstrap the app (Responsive design)
