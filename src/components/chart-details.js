@@ -34,7 +34,7 @@ class ChartDetails extends Component {
             </div>
 
         return (
-            <div className>
+            <div>
                 {details}
             </div>
         );
