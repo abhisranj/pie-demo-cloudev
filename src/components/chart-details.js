@@ -23,7 +23,6 @@ class ChartDetails extends Component {
             ) :
             <div style={{
                 textAlign: 'center',
-                marginTop: '135px'
             }}>
                 <h1 style={{
                     wordWrap: 'break-word',
@@ -35,7 +34,7 @@ class ChartDetails extends Component {
             </div>
 
         return (
-            <div>
+            <div className>
                 {details}
             </div>
         );

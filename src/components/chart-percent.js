@@ -5,7 +5,7 @@ export default class ChartPercent extends Component {
         const { percent } = this.props;
         const details = 
             <div>
-                <div className="selected-value">
+                <div className="selected-percent">
                     <h2>
                         {percent}% of overall
                     </h2>

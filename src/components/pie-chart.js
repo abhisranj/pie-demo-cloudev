@@ -14,7 +14,7 @@ class PieChart extends Component {
 
   	render() {
     	return (
-    		<div>
+    		<div className="pie">
 		    	<VictoryPie
 		    		padAngle={0}
 					// used to hide labels
